@@ -1,10 +1,10 @@
-# ripple-keypairs [![NPM](https://img.shields.io/npm/v/ripple-keypairs.svg)](https://npmjs.org/package/ripple-keypairs) [![Build Status](https://img.shields.io/travis/ripple/ripple-keypairs/master.svg)](https://travis-ci.org/ripple/ripple-keypairs) ![Codecov](https://img.shields.io/codecov/c/github/ripple/ripple-keypairs)
+# aitd-keypairs [![NPM](https://img.shields.io/npm/v/aitd-keypairs.svg)](https://npmjs.org/package/aitd-keypairs) [![Build Status](https://img.shields.io/travis/aitd/aitd-keypairs/master.svg)](https://travis-ci.org/aitd/aitd-keypairs) ![Codecov](https://img.shields.io/codecov/c/github/aitd/aitd-keypairs)
 
-An implementation of XRP Ledger keypairs & wallet generation using
+An implementation of AITD Ledger keypairs & wallet generation using
 [elliptic](https://github.com/indutny/elliptic) which supports rfc6979 and
 eddsa deterministic signatures.
 
-[![NPM](https://nodei.co/npm/ripple-keypairs.png)](https://www.npmjs.org/package/ripple-keypairs)
+[![NPM](https://nodei.co/npm/aitd-keypairs.png)](https://www.npmjs.org/package/aitd-keypairs)
 
 ## API Methods
 
@@ -31,7 +31,7 @@ Verify a signature for a given hex-encoded message and public key. Returns true 
 ```
 deriveAddress(publicKey: string) -> string
 ```
-Derive an XRP Ledger classic address from a public key.
+Derive an AITD Ledger classic address from a public key.
 
 ```
 deriveNodeAddress(publicKey: string) -> string
@@ -39,7 +39,7 @@ deriveNodeAddress(publicKey: string) -> string
 Derive a node address from a public key.
 
 
-## Generate a random XRP Ledger address
+## Generate a random AITD Ledger address
 
 ```
 const seed = generateSeed();

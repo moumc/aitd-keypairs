@@ -1,6 +1,6 @@
 {
   "name": "aitd-keypairs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cryptographic key pairs for the AITD Ledger",
   "files": [
     "dist/*"
@@ -14,7 +14,7 @@
     "brorand": "^1.0.5",
     "elliptic": "^6.5.2",
     "hash.js": "^1.0.3",
-    "aitd-address-codec": "^1.0.2"
+    "aitd-address-codec": "^1.0.3"
   },
   "devDependencies": {
     "@types/mocha": "^8.0.3",

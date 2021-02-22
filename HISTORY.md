@@ -1,13 +1,13 @@
-# ripple-keypairs Release History
+# aitd-keypairs Release History
 
 ## 1.0.2 (2020-09-12)
 
 * Drop support for Node.js version 8 (#171)
-  * Node.js v8 reached End-of-Life on 31st December 2019. As ripple-keypairs is a security-sensitive library, we recommend upgrading to Node.js 10 or higher immediately. ([Node.js Releases](https://nodejs.org/en/about/releases/))
+  * Node.js v8 reached End-of-Life on 31st December 2019. As aitd-keypairs is a security-sensitive library, we recommend upgrading to Node.js 10 or higher immediately. ([Node.js Releases](https://nodejs.org/en/about/releases/))
 * Internal
   * Update dependencies (#170) (#163) (#173) (#172) (#175) (#177) (#179) (#180) (#181)
   * Bump elliptic from 6.5.2 to 6.5.3 (#190)
-    * We do not believe that the issue fixed in this patch affects ripple-keypairs in any way, but we are bumping the dependency just to stay up-to-date.
+    * We do not believe that the issue fixed in this patch affects aitd-keypairs in any way, but we are bumping the dependency just to stay up-to-date.
   * Bump lodash from 4.17.15 to 4.17.20 (#207)
 * Add GitHub Actions CI (#221)
 
@@ -25,7 +25,7 @@
 * Add yarn.lock
 * Export members and add default export
 * Internal
-  * Use published ripple-address-codec (#58)
+  * Use published aitd-address-codec (#58)
   * Replace TSLint with ESLint + Prettier (#71)
   * Add type (#74)
   * Remove unused code (#81)
@@ -45,4 +45,4 @@
 
 ## 0.10.1 (2017-11-10)
 
-* [Verify that generated keypairs can correctly sign a message](https://github.com/ripple/ripple-keypairs/pull/22)
+* [Verify that generated keypairs can correctly sign a message](https://github.com/aitd/aitd-keypairs/pull/22)
